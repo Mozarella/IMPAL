@@ -1,0 +1,15 @@
+#twitter input:not(:focus){
+	opacity:0.6;
+}
+
+#twitter  input:required{
+}
+
+#twitter  input:valid {
+	opacity:0.8;
+}		
+
+#twitter input:focus:invalid{
+	border:1px solid red;
+	background-color:#FFEFF0;
+}
